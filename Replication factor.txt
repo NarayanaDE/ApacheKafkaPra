@@ -18,7 +18,7 @@ to create a group
 kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic abc1 --group g3
 
 to list the group
-kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic abc1 --group g3
+kafka-consumer-groups.bat --bootstrap-server localhost:9092 --list
 
 dry run and execute options
 
